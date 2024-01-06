@@ -108,13 +108,13 @@ class Scanner:
         if grid_dimensions_y < grid_dimensions_x:
             # get the smaller of two grid ratio x/y or y/x
             grid_ratio = grid_dimensions_y / grid_dimensions_x
-            video_resolution_x = int(video_capture.get(3))
+            video_resolution_x = int(video_capture.get(3)*grid_ratio)
             video_resolution_y = int(video_capture.get(3)*grid_ratio)
         else:
             # get the smaller of two grid ratio x/y or y/x
             grid_ratio = grid_dimensions_x / grid_dimensions_y
             video_resolution_x = int(video_capture.get(3)*grid_ratio)
-            video_resolution_y = int(video_capture.get(3))
+            video_resolution_y = int(video_capture.get(3)*grid_ratio)
 
             # video_resolution_y = int(video_capture.get(3))
 
