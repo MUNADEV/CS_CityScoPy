@@ -1,0 +1,303 @@
+{
+    
+    "01": {
+        "cityscopy_pattern": "1111111111111110"
+    },
+    "02": {
+        "cityscopy_pattern": "1111111111111101"
+    },
+    "03": {
+        "cityscopy_pattern": "1111111111111100"
+    },
+    "04": {
+        "cityscopy_pattern": "1111111111111000"
+    },
+    "05": {
+        "cityscopy_pattern": "1111111111110000"
+    },
+    "06": {
+        "cityscopy_pattern": "1111111111101110"
+    },
+    "07": {
+        "cityscopy_pattern": "1111111111101101"
+    },
+    "08": {
+        "cityscopy_pattern": "1111111111101100"
+    },
+    "09": {
+        "cityscopy_pattern": "1111111111101001"
+    },
+    "10": {
+        "cityscopy_pattern": "1111111111101000"
+    },
+    "11": {
+        "cityscopy_pattern": "1111111111100111"
+    },
+    "12": {
+        "cityscopy_pattern": "1111111111100011"
+    },
+    "13": {
+        "cityscopy_pattern": "1111111111100010"
+    },
+    "14": {
+        "cityscopy_pattern": "1111111111100001"
+    },
+    "15": {
+        "cityscopy_pattern": "1111111111100000"
+    },
+    "16": {
+        "cityscopy_pattern": "1111111111001110"
+    },
+    "17": {
+        "cityscopy_pattern": "1111111111000111"
+    },
+    "18": {
+        "cityscopy_pattern": "1111111111000100"
+    },
+    "19": {
+        "cityscopy_pattern": "1111111111000011"
+    },
+    "20": {
+        "cityscopy_pattern": "1111111111001100"
+    },
+    "21": {
+        "cityscopy_pattern": "1111111111000001"
+    },
+    "22": {
+        "cityscopy_pattern": "1111111111000000"
+    },
+    "23": {
+        "cityscopy_pattern": "1111111111000010"
+    },
+    "24": {
+        "cityscopy_pattern": "1111111111001000"
+    },
+    "25": {
+        "cityscopy_pattern": "1111111110001111"
+    },
+    "26": {
+        "cityscopy_pattern": "1111111110001110"
+    },
+    "27": {
+        "cityscopy_pattern": "1111111110001100"
+    },
+    "28": {
+        "cityscopy_pattern": "1111111110001010"
+    },
+    "29": {
+        "cityscopy_pattern": "1111111110000100"
+    },
+    "30": {
+        "cityscopy_pattern": "1111111110000010"
+    },
+    "31": {
+        "cityscopy_pattern": "1111111110000011"
+    },
+    "32": {
+        "cityscopy_pattern": "1111111110000001"
+    },
+    "33": {
+        "cityscopy_pattern": "1111111110000110"
+    },
+    "34": {
+        "cityscopy_pattern": "1111111110001000"
+    },
+    "35": {
+        "cityscopy_pattern": "1111111110000000"
+    },
+    "36": {
+        "cityscopy_pattern": "1111111100001111"
+    },
+    "37": {
+        "cityscopy_pattern": "1111111100001110"
+    },
+    "38": {
+        "cityscopy_pattern": "1111111100001011"
+    },
+    "39": {
+        "cityscopy_pattern": "1111111100001100"
+    },
+    "40": {
+        "cityscopy_pattern": "1111111100001000"
+    },
+    "41": {
+        "cityscopy_pattern": "1111111100000000"
+    },
+    "42": {
+        "cityscopy_pattern": "1111111011101100"
+    },
+    "43": {
+        "cityscopy_pattern": "1111111011101001"
+    },
+    "44": {
+        "cityscopy_pattern": "1111111011101000"
+    },
+    "45": {
+        "cityscopy_pattern": "1111111011100100"
+    },
+    "46": {
+        "cityscopy_pattern": "1111111011100010"
+    },
+    "47": {
+        "cityscopy_pattern": "1111111011100001"
+    },
+    "48": {
+        "cityscopy_pattern": "1111111011100000"
+    },
+    "49": {
+        "cityscopy_pattern": "1111111011001111"
+    },
+    "50": {
+        "cityscopy_pattern": "1111111011001110"
+    },
+    "51": {
+        "cityscopy_pattern": "1111111011001100"
+    },
+    "52": {
+        "cityscopy_pattern": "1111111011001000"
+    },
+    "53": {
+        "cityscopy_pattern": "1111111011001010"
+    },
+    "54": {
+        "cityscopy_pattern": "1111111011001101"
+    },
+    "55": {
+        "cityscopy_pattern": "1111111011001001"
+    },
+    "56": {
+        "cityscopy_pattern": "1111111011001011"
+    },
+    "57": {
+        "cityscopy_pattern": "1111111011000111"
+    },
+    "58": {
+        "cityscopy_pattern": "1111111011000011"
+    },
+    "59": {
+        "cityscopy_pattern": "1111111011000001"
+    },
+    "60": {
+        "cityscopy_pattern": "1111111011000100"
+    },
+    "61": {
+        "cityscopy_pattern": "1111111011000110"
+    },
+    "62": {
+        "cityscopy_pattern": "1111111011000000"
+    },
+    "63": {
+        "cityscopy_pattern": "1111111010001111"
+    },
+    "64": {
+        "cityscopy_pattern": "1111111010000111"
+    },
+    "65": {
+        "cityscopy_pattern": "1111111010001011"
+    },
+    "66": {
+        "cityscopy_pattern": "1111111010001101"
+    },
+    "67": {
+        "cityscopy_pattern": "1111111010001110"
+    },
+    "68": {
+        "cityscopy_pattern": "1111111010001100"
+    },
+    "69": {
+        "cityscopy_pattern": "1111111010000011"
+    },
+    "70": {
+        "cityscopy_pattern": "1111111010000110"
+    },
+    "71": {
+        "cityscopy_pattern": "1111111010000001"
+    },
+    "72": {
+        "cityscopy_pattern": "1111111010001000"
+    },
+    "73": {
+        "cityscopy_pattern": "1111111010000100"
+    },
+    "74": {
+        "cityscopy_pattern": "0111111010001000"
+    },
+    "75": {
+        "cityscopy_pattern": "1111111010000010"
+    },
+    "76": {
+        "cityscopy_pattern": "1111111010000000"
+    },
+    "77": {
+        "cityscopy_pattern": "1111111000001111"
+    },
+    "78": {
+        "cityscopy_pattern": "1111111000001110"
+    },
+    "79": {
+        "cityscopy_pattern": "1111111000001101"
+    },
+    "80": {
+        "cityscopy_pattern": "1111111000001011"
+    },
+    "81": {
+        "cityscopy_pattern": "1111111000000111"
+    },
+    "82": {
+        "cityscopy_pattern": "1111111000000011"
+    },
+    "83": {
+        "cityscopy_pattern": "1111111000001100"
+    },
+    "84": {
+        "cityscopy_pattern": "1111111000001000"
+    },
+    "85": {
+        "cityscopy_pattern": "1111111000000001"
+    },
+    "86": {
+        "cityscopy_pattern": "1111111000000100"
+    },
+    "87": {
+        "cityscopy_pattern": "1111111000000010"
+    },
+    "88": {
+        "cityscopy_pattern": "1111111000000000"
+    },
+    "89": {
+        "cityscopy_pattern": "1111111011111110"
+    },
+    "90": {
+        "cityscopy_pattern": "1111111011110111"
+    },
+    "91": {
+        "cityscopy_pattern": "1111111011111011"
+    },
+    "92": {
+        "cityscopy_pattern": "1111111011111101"
+    },
+    "93": {
+        "cityscopy_pattern": "1111111011111100"
+    },
+    "94": {
+        "cityscopy_pattern": "1111111011110011"
+    },
+    "95": {
+        "cityscopy_pattern": "1111111011110110"
+    },
+    "96": {
+        "cityscopy_pattern": "1111111011111000"
+    },
+    "97": {
+        "cityscopy_pattern": "1111111011110001"
+    },
+    "98": {
+        "cityscopy_pattern": "1111111011110010"
+    },
+    "99": {
+        "cityscopy_pattern": "1111111011110100"
+    },
+    "100": {
+        "cityscopy_pattern": "1111111011110000"
+    }
+}
