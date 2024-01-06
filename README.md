@@ -3,6 +3,30 @@
 A tool for scanning interactions with a tangible LEGO grid and networking MIT CityScope Projects in Python.
 Documentation: https://cityscope.media.mit.edu/UI/CityScoPy
 
+
+# Installation
+
+```shell
+pip install opencv-python
+```
+
+```shell
+pip install requests
+```
+
+# Dreves
+
+Step 1:
+
+```shell
+python cityscopy.py --cityscopy setup --table_name dreves
+```
+Step 2:
+
+```shell
+python cityscopy.py --cityscopy scan --table_name dreves
+```
+
 # Example
 
 Basic example:

@@ -52,12 +52,16 @@ class Setup:
     '''
 
     def get_cityio_types(self, table_name):
-
+        
+        # if we need a custom pattern for the types, load it from the custom_grid.json file
+        with open('cityscopy/settings/custom_grid.json', 'r') as archivo_json:
+                   custom_grid = json.load(archivo_json)
+        
         types = self.get_cityio_field(table_name, 'GEOGRID/properties/types/')
-
+        
         # from each type, remove all fields except 'name', 'id' and 'color'
         for idx, i in enumerate(types):
-            types[i] = {k: types[i][k] for k in ('name', 'color', 'height')}
+            types[i] = {k: types[i][k] for k in ('name', 'color')}
             # give each type a unique id in a new field called 'cityscopy_id'
             types[i]['cityscopy_id'] = idx
 
@@ -67,10 +71,16 @@ class Setup:
                     types[i]['color'][3:5], 16), int(types[i]['color'][5:7], 16)]
 
             # for each type, add a pattern field that is a list of 16 0 and 1 values. This pattern is used to identify the type in the 2d array
-            pattern = [int(x) for x in bin(idx)[2:].zfill(16)]
-            #  convert the pattern to string
-            pattern = ''.join(str(e) for e in pattern)
-            types[i]['cityscopy_pattern'] = pattern
+            if types[i]['name'][-2:] in custom_grid:
+                types[i]['cityscopy_pattern'] = custom_grid[types[i]['name'][-2:]]['cityscopy_pattern']
+            elif types[i]['name'] == 'bloqueError':
+                types[i]['cityscopy_pattern'] = '0000000000000000'
+            else:
+                pattern = [int(x) for x in bin(idx)[2:].zfill(16)]
+                #  convert the pattern to string
+                pattern = ''.join(str(e) for e in pattern)
+                types[i]['cityscopy_pattern'] = pattern
+
         # write the types to the settings object
         self.table_settings['types'] = types
 
